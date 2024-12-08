@@ -1,7 +1,9 @@
+import Contact from "./Component/Contact"
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">WELCOME MOTREN </h1>
+      
+      <Contact/>
     </>
   );
 }
