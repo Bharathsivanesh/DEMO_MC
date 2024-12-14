@@ -1,67 +1,67 @@
 /* Container for the flag and input field */
 .phone-input-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    gap: 8px; /* Add space between the flag, country code, and input field */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 8px; /* Add space between the flag, country code, and input field */
 }
 
 /* Flag dropdown styling */
 .phone-input-container .react-tel-input .flag-dropdown {
-    background-color: #383939;
-    border: 1px solid #FFFFFF1A;
-    border-radius: 25px; /* Rounded border for the flag dropdown */
-    padding: 8px; /* Smaller padding for better alignment */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60px; /* Match input field height */
-    width: 60px; /* Square flag box */
+  background-color: #383939;
+  border: 1px solid #ffffff1a;
+  border-radius: 25px; /* Rounded border for the flag dropdown */
+  padding: 8px; /* Smaller padding for better alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px; /* Match input field height */
+  width: 60px; /* Square flag box */
 }
 
 /* Country code styling (e.g., +91) */
 .phone-input-container .react-tel-input .country-code {
-    background-color: #383939; /* Same background as the flag */
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 8px 12px; /* Padding to adjust spacing around the code */
-    border-radius: 25px; /* Rounded border */
-    display: flex;
-    align-items: center;
-    height: 60px; /* Match input field height */
+  background-color: #383939; /* Same background as the flag */
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 12px; /* Padding to adjust spacing around the code */
+  border-radius: 25px; /* Rounded border */
+  display: flex;
+  align-items: center;
+  height: 60px; /* Match input field height */
 }
 
 /* Input field styling */
 .phone-input-container .react-tel-input .form-control {
-    background-color: #38393940; /* Input background color */
-    border: 1px solid #FFFFFF1A;
-    color: white;
-    padding-left: 5rem;
-    border-radius: 25px; /* Rounded border */
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    height: 60px;
-    width: 100%; /* Full width for the input field */
+  background-color: #38393940; /* Input background color */
+  border: 1px solid #ffffff1a;
+  color: white;
+  padding-left: 5rem;
+  border-radius: 25px; /* Rounded border */
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  height: 60px;
+  width: 100%; /* Full width for the input field */
 }
 
 /* Placeholder text styling */
 .phone-input-container .react-tel-input .form-control::placeholder {
-    color: #A1A1A1;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+  color: #a1a1a1;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /* Focused state for better user experience */
 .phone-input-container .react-tel-input .form-control:focus,
 .phone-input-container .react-tel-input .flag-dropdown:focus {
-    outline: 2px solid #453FF3; /* Add focus outline */
+  outline: 2px solid #453ff3; /* Add focus outline */
 }
 
 /* Adjust flag icon height to prevent overlapping */
 .phone-input-container .react-tel-input .flag {
-    height: 15px; /* Adjust flag height */
+  height: 15px; /* Adjust flag height */
 }
