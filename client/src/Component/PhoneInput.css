@@ -8,6 +8,7 @@
 
 /* Flag dropdown styling */
 .phone-input-container .react-tel-input .flag-dropdown {
+<<<<<<< HEAD
   background-color: #383939;
   border: 1px solid #ffffff1a;
   border-radius: 25px; /* Rounded border for the flag dropdown */
@@ -17,10 +18,22 @@
   justify-content: center;
   height: 60px; /* Match input field height */
   width: 60px; /* Square flag box */
+=======
+    background-color: #383939;
+    border: 1px solid #FFFFFF1A;
+    border-radius: 25px; /* Rounded border for the flag dropdown */
+    padding: 8px; /* Smaller padding for better alignment */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px; /* Match input field height */
+    width: 60px; /* Square flag box */
+>>>>>>> bf1151de891b4ffc40cca04ae29cd0e233619666
 }
 
 /* Country code styling (e.g., +91) */
 .phone-input-container .react-tel-input .country-code {
+<<<<<<< HEAD
   background-color: #383939; /* Same background as the flag */
   color: white;
   font-family: "Poppins", sans-serif;
@@ -31,10 +44,23 @@
   display: flex;
   align-items: center;
   height: 60px; /* Match input field height */
+=======
+    background-color: #383939; /* Same background as the flag */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 12px; /* Padding to adjust spacing around the code */
+    border-radius: 25px; /* Rounded border */
+    display: flex;
+    align-items: center;
+    height: 60px;; /* Match input field height */
+>>>>>>> bf1151de891b4ffc40cca04ae29cd0e233619666
 }
 
 /* Input field styling */
 .phone-input-container .react-tel-input .form-control {
+<<<<<<< HEAD
   background-color: #38393940; /* Input background color */
   border: 1px solid #ffffff1a;
   color: white;
@@ -45,14 +71,33 @@
   font-weight: 600;
   height: 60px;
   width: 100%; /* Full width for the input field */
+=======
+    background-color: transparent; /* Input background color */
+    border: 1px solid #FFFFFF1A;
+    color: white;
+    padding-left: 5rem;
+    border-radius: 25px; /* Rounded border */
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    height: 80px;
+    width: 100%; /* Full width for the input field */
+>>>>>>> bf1151de891b4ffc40cca04ae29cd0e233619666
 }
 
 /* Placeholder text styling */
 .phone-input-container .react-tel-input .form-control::placeholder {
+<<<<<<< HEAD
   color: #a1a1a1;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 600;
+=======
+    color: #A1A1A1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+>>>>>>> bf1151de891b4ffc40cca04ae29cd0e233619666
 }
 
 /* Focused state for better user experience */
@@ -64,4 +109,20 @@
 /* Adjust flag icon height to prevent overlapping */
 .phone-input-container .react-tel-input .flag {
   height: 15px; /* Adjust flag height */
+}
+
+@media(max-width:768px)
+{
+    .phone-input-container .react-tel-input .flag-dropdown {
+        height: 60px;
+    }
+    .phone-input-container .react-tel-input .form-control {
+        height: 60px;
+        
+    }
+    phone-input-container .react-tel-input .form-control::placeholder {
+        font-size: 8px;
+        font-weight: 100;
+    }
+     
 }
