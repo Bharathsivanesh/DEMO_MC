@@ -5,7 +5,11 @@ export default {
     extend: {colors: {
       background: '#17161c',
       textgmail:'#453FF3',
-    },},
+    },
+    backgroundImage: {
+      'whiteportfolio': "url('../client/src/Portfolio/images/Header.png')",
+    },
+  },
   },
   plugins: [],
 };
